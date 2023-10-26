@@ -344,7 +344,7 @@ live2d:
 
 # 首页雪花飘落效果--冬天
 snow:
-  on: true
+  on: false
   onlyPc: false # 设为true，只有pc端显示雪花特效
 
 # 首页花瓣飘落效果--春天
@@ -468,10 +468,10 @@ bubble:
 
 # valine 评论 https://valine.js.org
 valine:
-  on: false
-  appid: 
-  appkey: 
-  avatar: '' # 匿名者头像选项 https://valine.js.org/avatar.html
+  on: true
+  appid: p4RozKn5htfWMNgYvfS0ZgW5-gzGzoHsz
+  appkey: Ub7MEOAWBaqU4VfaoBDZGFea
+  avatar: 'monsterid' # 匿名者头像选项 https://valine.js.org/avatar.html
   placeholder: '客官，说点什么吧' # 评论内容输入框的 placeholder
   master: '' # 博主标签识别，博主邮箱md5 可以去md5加密网站，例如 https://md5jiami.51240.com/ ，将自己的邮箱输入， 得到 32位小写 的字符串
   friends: [] # 小伙伴的 邮箱md5， 是个数组
@@ -674,7 +674,7 @@ site_footer:
     #   url: https://github.com/yuang01/hexo-theme-bamboo
     # - icon: fas fa-qq
     #   url: tencent://AddContact/?fromId=50&fromSubId=1&subcmd=all&uin=1730241541
-  copyright: 'Copyright © 2019 - 2020 <a href="https://github.com/yuang01">yuang01</a> | Powered by <a href="https://hexo.io/zh-cn/docs/">Hexo</a> | Theme <a href="https://github.com/yuang01/theme">Bamboo</a> '
+  copyright: 'Copyright © 2023 <a href="https://github.com/yangshifei">Yangsf</a> | Powered by <a href="https://hexo.io/zh-cn/docs/">Hexo</a> | Theme <a href="https://github.com/yuang01/theme">Bamboo</a> '
   custom: # 根据需要自行取消注释，label: 'markdown格式'，会在下面继续增加内容
     # - label: '<br>'
     # - label: '[Hello World](http://baidu.com)'
@@ -768,7 +768,7 @@ import:
     - 
     - 
   script: 
-    # - <script src="xxx.js"></script>
+    - <script src="meihua/index.js"></script>
     - 
     - 
 
