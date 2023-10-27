@@ -35,25 +35,25 @@ menu:
   Home:
     url: /
     icon: fa fa-home
-  📄文档: # 这是二级菜单的写法
+#  📄文档: # 这是二级菜单的写法
   #  icon: fa fa-link
-   children:
-    - name: 基本配置
-      url: /post/hexo-theme-bamboo-new
-      # icon: fa fa-music
-    - name: 页面功能配置
-      url: /post/hexo-theme-bamboo/page/
-      # icon: fa fa-film
-    - name: 主题更改
-      url: /post/hexo-theme-bamboo/theme/
-      # icon: fa fa-film
-    - name: Front-matter介绍
-      url: /post/hexo-theme-bamboo/front-matter/
-      # icon: fa fa-film
-    - name: 内置标签
-      url: /post/hexo-theme-bamboo/tags/
-    - name: 建议
-      url: /post/hexo-theme-bamboo/suggest/
+#   children:
+#    - name: 基本配置
+#      url: /post/hexo-theme-bamboo-new
+#      # icon: fa fa-music
+#    - name: 页面功能配置
+#      url: /post/hexo-theme-bamboo/page/
+#      # icon: fa fa-film
+#    - name: 主题更改
+#      url: /post/hexo-theme-bamboo/theme/
+#      # icon: fa fa-film
+#    - name: Front-matter介绍
+#      url: /post/hexo-theme-bamboo/front-matter/
+#      # icon: fa fa-film
+#    - name: 内置标签
+#      url: /post/hexo-theme-bamboo/tags/
+#    - name: 建议
+#      url: /post/hexo-theme-bamboo/suggest/
   Archives:
     url: /archives
     icon: fa fa-archive
@@ -92,10 +92,10 @@ Github:
   url: https://github.com/yuang01/hexo-theme-bamboo
 
 # 网站logo
-logo: /medias/logo.png # 为空则不显示
+logo: /medias/hor.png # 为空则不显示
 
 # 网站 favicon
-favicon: /favicon.ico # or .png .jpg .svg .gif .jpeg .ico
+favicon: /favicon.png # or .png .jpg .svg .gif .jpeg .ico
 
 # sidebar侧边栏
 sidebar:
@@ -394,9 +394,9 @@ music:
   autoHide: true    # hide automaticaly
   server: netease   # require music platform: netease, tencent, kugou, xiami, baidu
   type: playlist   # require song, playlist, album, search, artist
-  id: 3136952023    # require song id / playlist id / album id / search keyword
+  id: 2382468523    # require song id / playlist id / album id / search keyword
   fixed: true       # 开启吸底模式，建议开启
-  autoplay: false   # 是否自动播放, 有些浏览器会禁用自动播放，目前edge可以自动播放
+  autoplay: true   # 是否自动播放, 有些浏览器会禁用自动播放，目前edge可以自动播放
   theme: '#42b983'
   loop: 'all'       # 音频循环播放, 可选值: 'all', 'one', 'none'
   order: 'random'   # 音频循环顺序, 可选值: 'list', 'random'
@@ -789,7 +789,13 @@ imgs:
 - 'https://pic3.zhimg.com/v2-a5267dfbf175991d4b3a69b41f3f678a_b.jpg'
 - 'https://pic3.zhimg.com/80/v2-e5c15010b8ba4608a1974403a02a2da0_1440w.webp'
 - 'https://pic2.zhimg.com/80/v2-29e78b52051ce542adf6d786d61fbd19_1440w.webp'
-
+- 'https://i0.hippopx.com/photos/320/918/427/sky-clouds-sunlight-dark-preview.jpg'
+- 'https://i0.hippopx.com/photos/683/318/324/wolf-wolves-snow-wolf-landscape-preview.jpg'
+- 'https://i0.hippopx.com/photos/96/70/322/woman-happiness-sunrise-silhouette-preview.jpg'
+- 'https://i0.hippopx.com/photos/298/434/513/beach-dawn-dusk-ocean-preview.jpg'
+- 'https://i0.hippopx.com/photos/242/966/413/dawn-sun-mountain-landscape-preview.jpg'
+- 'https://i0.hippopx.com/photos/174/613/190/mountain-landscape-mountains-landscape-steinweg-preview.jpg'
+- 'https://i0.hippopx.com/photos/704/633/113/scotland-landscape-scenic-mountains-preview.jpg'
 CDN:
   valine: /js/valine/index.js # https://unpkg.com/valine/dist/Valine.min.js ==> 用这个官方链接则没有 博主标识功能
   iconfont: https://at.alicdn.com/t/font_1911880_c1nvbyezg17.css
